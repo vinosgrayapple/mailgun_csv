@@ -1,0 +1,17 @@
+{
+  "name": "mailgun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "folder-zip-sync": "^1.0.4",
+    "mailgun-js": "^0.11.2",
+    "node-schedule": "^1.2.3"
+  }
+}
