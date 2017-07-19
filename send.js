@@ -8,7 +8,7 @@ const Zip = require('./zip');
 fs.watch('csv', (event, filename) => {
 // console.log(event);
 if (fs.readdirSync('csv').length) {
-  
+  setTimeout(()=>{},6000);
 if (!fs.existsSync(Zip.zipFileName)) {
   // start mailgun    
   Zip.run();  
